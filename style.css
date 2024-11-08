@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     
-    
-  
 }
 
 body {
@@ -27,7 +25,7 @@ header nav a {
 }
 
 section {
-    width: 110%;
+    width: auto;
     margin: 10px auto;
     padding: 20px;
     background: #fff;
@@ -118,17 +116,30 @@ button:hover {
    }
     .image{
         border-radius:20px;
-        width: 600;
+        width: 267px;
         display: inline-block;
+        float: inline-start;
     }
     .borda{
         border-radius: 0px 0px 15px 15px;
-    }
+                }
     .container2{
         text-align: center;
         display: table;
-        padding-left: 1000px;
-        padding-bottom: 1500px;
+        /*padding-left: 1000px;
+        padding-bottom: 1500px;*/
         display: flex;
          color: #4a4a8a;
+    }
+    /*adicionado duas classes detalhe-foto só para fotto e */
+    .detalhes-foto{
+        padding: 3%;
+    }
+    /*adicionado detalhes-dados ao lado da foto */
+    .detalhes-dados{
+        color: #5d5c5c;
+        border-style: solid;
+        border-color: #2196f380;
+        font-family: system-ui;
+        width: 52%;
     }
