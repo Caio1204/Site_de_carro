@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda seu Veículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="borda">
+        <h1>Lua Auto - Venda seu Veículo</h1>
+        <nav>
+            <a href="index.html">Carros à Venda</a>
+            <a href="venda.html">Venda seu Veículo</a>
+        </nav>
+    </header>
+    
+    <section id="venda-veiculo">
+        <h2 class="texto">Cadastre seu Veículo</h2>
+        <div class="Normal">
+            <div class="container">
+            <form id="form-veiculo" class="bg">
+             <input type="text" id="Modelo" placeholder="Modelo" required class="Normal">
+             <input type="text" id="Marca" placeholder="Marca" required class="Normal">
+            <input type="number" id="ano" placeholder="Ano" required class="Normal" >
+            <input type="number" id="quilometragem" placeholder="Quilometragem" required class="Normal">
+            <input type="text" id="cor" placeholder="Cor" required class="Normal">
+            <input type="text" id="preco" placeholder="Preço" required class="Normal">
+            <input type="text" id="contato" placeholder="Contato" required class="Normal">
+            <input type="file" id="foto" accept="image/*" class="foto">
+            <button type="button" onclick="adicionarCarro()">Adicionar Veículo</button>
+        </div>
+        </div>
+        </div>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

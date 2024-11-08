@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #4a4a8a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 100% 20px;
+    text-decoration: none;
+}
+
+section {
+    width: 110%;
+    margin: 10px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 8px
+}
+
+#carros-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.carro-card {
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.carro-card:hover {
+    transform: scale(1.05);
+}
+
+.carro-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    background: #4a4a8a;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin-left: 13%;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #333;
+}
+
+.excluir-btn {
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+    .Normal{    
+    text-align: center;
+    display: flex;
+    position: static;
+    justify-content: center;
+    margin: 6px;
+    margin-left: 9px;
+}
+.container {
+    width: 20vw;
+    height: 80vh;
+    margin-right:8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+   .Fonte{
+    color: #000000;
+   }
+
+
+   .bg{
+    background-color: pink ;
+    padding: 2.7rem;
+    border-radius: 10px;
+    
+
+   }
+   .texto{
+    text-align: center;
+    padding-right: 10%;
+   }
+    .image{
+        border-radius:20px;
+        width: 600;
+        display: inline-block;
+    }
+    .borda{
+        border-radius: 0px 0px 15px 15px;
+    }
+    .container2{
+        text-align: center;
+        display: table;
+        padding-left: 1000px;
+        padding-bottom: 1500px;
+        display: flex;
+         color: #4a4a8a;
+    }
