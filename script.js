@@ -42,9 +42,10 @@ function atualizarCatalogo() {
             
             <img src="${carro.foto}" alt="${carro.marcaModelo}">
             <h3>${carro.Modelo}</h3>
+
             <h3>${carro.Marca}</h3>
-            <p>Ano: ${carro.ano}</p>
-            <p>Quilometragem: ${carro.quilometragem} km</p>
+            <p style="padding:3%">Ano: ${carro.ano}</p>
+            <p style="padding:3%">Quilometragem: ${carro.quilometragem} km</p>
             <p>Cor: ${carro.cor}</p>
             <p>Preço: ${carro.preco}</p>
             <p>Contato: ${carro.contato}</p>
@@ -73,16 +74,14 @@ window.onload = function() {
     if (detalhesCarro) {
         const carro = JSON.parse(localStorage.getItem('detalhesCarro'));
         detalhesCarro.innerHTML = `
-            <div class="borda">
-           <img src="${carro.foto}" alt="${carro.marcaModelo}" class="image" width=900>
-           </div>
-           <div class="container2">
-            <br><h2>${carro.Marca} ${carro.Modelo} </h2></br>
-           <br><p>Ano: ${carro.ano}</p></br>
-           <br><p>Quilometragem: ${carro.quilometragem} Km </p></br>
-           <br><p>Cor: ${carro.cor}</p></br>
-           <br><p>Preço: ${carro.preco}</p></br>
-           <br><p>Contato: ${carro.contato}</p></br>
+            <div class="detalhes-foto detalhes-dados">
+            <img src="${carro.foto}" alt="${carro.marcaModelo}" class="image" >
+            <h2>${carro.Marca} ${carro.Modelo} </h2>
+            <p>Ano: ${carro.ano}</p></br>
+            <p>Quilometragem: ${carro.quilometragem} Km </p>
+            <p>Cor: ${carro.cor}</p>
+            <p>Preço: ${carro.preco}</p>
+            <p>Contato: ${carro.contato}</p>
            </div>
         `;
     } else {
