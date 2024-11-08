@@ -132,3 +132,15 @@ button:hover {
         display: flex;
          color: #4a4a8a;
     }
+/*adicionado duas classes detalhe-foto só para fotto e */
+    .detalhes-foto{
+        padding: 3%;
+    }
+    /*adicionado detalhes-dados ao lado da foto */
+    .detalhes-dados{
+        color: #5d5c5c;
+        border-style: solid;
+        border-color: #2196f380;
+        font-family: system-ui;
+        width: 52%;
+    }
