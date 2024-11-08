@@ -42,9 +42,10 @@ function atualizarCatalogo() {
             
             <img src="${carro.foto}" alt="${carro.marcaModelo}">
             <h3>${carro.Modelo}</h3>
+
             <h3>${carro.Marca}</h3>
-            <p>Ano: ${carro.ano}</p>
-            <p>Quilometragem: ${carro.quilometragem} km</p>
+            <p style="padding:3%">Ano: ${carro.ano}</p>
+            <p style="padding:3%">Quilometragem: ${carro.quilometragem} km</p>
             <p>Cor: ${carro.cor}</p>
             <p>Preço: ${carro.preco}</p>
             <p>Contato: ${carro.contato}</p>
