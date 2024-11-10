@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@ body {
 }
 
 header {
-    background: #4a4a8a;
+    background: linear-gradient(#ff0000, #5c0c0c);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -58,14 +59,14 @@ section {
 }
 
 button {
-    background: #4a4a8a;
+    background: #000000;
     color: #fff;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
     border-radius: 5px;
     display: block;
-    margin-left: 13%;
+    margin-left: 40%;
     text-decoration: none;
 }
 
@@ -78,47 +79,55 @@ button:hover {
     color: #fff;
     padding: 5px 10px;
     margin-top: 10px;
+    margin-left: 40%;
 }
     .Normal{    
     text-align: center;
-    display: flex;
-    position: static;
-    justify-content: center;
-    margin: 6px;
-    margin-left: 9px;
-}
+    padding-left: 40%;
+    box-shadow: #333;
+    width: 30px;
+    
+
+    }
+    
 .container {
     width: 20vw;
-    height: 80vh;
-    margin-right:8%;
+    height: 75vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     
     
+    
     }
    .Fonte{
     color: #000000;
+    margin-left: 9px;
    }
 
 
    .bg{
-    background-color: pink ;
-    padding: 2.7rem;
-    border-radius: 10px;
+    background: linear-gradient(0.25turn, #380101, #cf0909, #380101);
+    border-radius: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    align-items: left;
+
     
 
    }
    .texto{
     text-align: center;
-    padding-right: 10%;
    }
     .image{
         border-radius:20px;
         width: 267px;
         display: inline-block;
         float: inline-start;
+        width: 1000px;
+        padding-top: 15px;
+        
     }
     .borda{
         border-radius: 0px 0px 15px 15px;
@@ -134,12 +143,24 @@ button:hover {
 
     .detalhes-foto{
         padding: 3%;
+    
     }
     /*adicionado detalhes-dados ao lado da foto */
     .detalhes-dados{
-        color: #5d5c5c;
+        color: black;
         border-style: solid;
-        border-color: #2196f380;
+        border-color: rgb(255, 255, 255);
         font-family: system-ui;
-        width: 52%;
+        width: 94%;
+        font-size: 25px;
+        display: table;
+    
     }
+.caixa{
+    text-align: center;
+    width: 600px;
+    height: 200px;
+}
+.foto{
+    color: white;
+}
