@@ -8,12 +8,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
+    background: #d1d1d1;
     color: #333;
 }
 
 header {
-    background: linear-gradient(#ff0000, #5c0c0c);
+    background: linear-gradient(#860000, #570000);
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -29,8 +29,8 @@ section {
     width: auto;
     margin: 10px auto;
     padding: 20px;
-    background: #fff;
-    box-shadow: 0 0 10px rgb(255, 255, 255);
+    background: #d1d1d1;
+
     border-radius: 8px
 }
 
@@ -47,6 +47,7 @@ section {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
+    background-color: white;
 }
 
 .carro-card:hover {
@@ -66,7 +67,7 @@ button {
     cursor: pointer;
     border-radius: 5px;
     display: block;
-    margin-left: 40%;
+    margin-left: 30%;
     text-decoration: none;
 }
 
@@ -79,7 +80,7 @@ button:hover {
     color: #fff;
     padding: 5px 10px;
     margin-top: 10px;
-    margin-left: 40%;
+    margin-left: 38%;
 }
     .Normal{    
     text-align: center;
@@ -108,11 +109,12 @@ button:hover {
 
 
    .bg{
-    background: linear-gradient(0.25turn, #380101, #cf0909, #380101);
+    background: linear-gradient(0.25turn, #700000, #7e0000, #750000);
     border-radius: 15px;
     padding-right: 5px;
     padding-left: 5px;
     align-items: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
     
 
@@ -138,7 +140,7 @@ button:hover {
         /*padding-left: 1000px;
         padding-bottom: 1500px;*/
         display: flex;
-         color: #4a4a8a;
+         color: #5f0000;
     }
 
     .detalhes-foto{
@@ -149,7 +151,7 @@ button:hover {
     .detalhes-dados{
         color: black;
         border-style: solid;
-        border-color: rgb(255, 255, 255);
+        border-color: #d1d1d1;
         font-family: system-ui;
         width: 94%;
         font-size: 25px;
@@ -163,4 +165,18 @@ button:hover {
 }
 .foto{
     color: white;
+}
+.cars{
+    text-align: center;
+}
+.botao2{
+    background: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin-left: 40%;
+    text-decoration: none;
 }
